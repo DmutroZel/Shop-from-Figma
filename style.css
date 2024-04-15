@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://img.goodfon.com/original/1920x1200/3/b7/interer-dizayn-belyy-divan.jpg);
+    background-size: 100%;
+}
+.home1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+.home2{
+    width: 100%;
+    height: 40vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.golovne{
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+   
+}
+.koshuk{
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    color: white;
+}
+
+.horizontal-gradient {
+    background-image: linear-gradient(to right, #FFE4B5 0%, #FFEFD5 46%, #F0E68C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.horizontal-gradient2{
+    background-image: linear-gradient(to right, #FFE4B5 0%, #FFEFD5 46%, #F0E68C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+
+.center {
+    text-align: center;
+    font-size: 60px;  
+  }
+.center2 {
+    text-align: center;
+   
+}
+.input{
+    width: 200px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    padding: 1rem;
+    border: .2rem solid transparent;
+    border-image: linear-gradient(280deg, #FFE4B5, #FFEFD5, #F0E68C );
+    border-image-slice: 1;
+   
+}
+
+
+
+
+
+
+.wrap2{
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.card{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.card1{
+    width: 100%;
+    height: 20vh;
+    display: flex; 
+}
+.card2{
+    width: 100%;
+    height: 80vh;
+   display: flex;
+}
+.pidCard1{
+    width: 34%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pidCard2{
+    width: 33%;
+    height: 20vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.pidCard3{
+    width: 33%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.gtext{
+    font-size: 35px;
+    
+}
+.text{
+    color: gray;
+    font-size: 20px;
+}
+
+
+.card4{
+    width: 33%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prod{
+    font-size: 70px;
+}
+
+.fa-arrow-right{
+    font-size: 20px;
+    color: gray;
+}
+
+    
+    
+
+.fa-box{
+    font-size: 100px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #FFE4B5 0%, #FFEFD5 46%, #F0E68C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-wallet{
+    font-size: 100px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #FFE4B5 0%, #FFEFD5 46%, #F0E68C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-headphones{
+    font-size: 100px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #FFE4B5 0%, #FFEFD5 46%, #F0E68C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card5{
+    width: 67%;
+    height: 80vh;
+    border-radius: 70px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pidcard10{
+    width: 30%;
+    height: 70vh;
+    background-color:#F0E68C;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.pidpidcard1{
+    width: 100%;
+    height: 35vh;
+    background-color: #F0E68C;
+    border-radius: 40px;
+
+}
+.pidpidcard2{
+    width: 100%;
+    height: 35vh;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+.money1{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    
+    
+}
+.fa-star{
+    color: darkgoldenrod;
+    font-size: 14px;
+}
+.cammile{
+    font-size: 35px;
+    padding: 10px;
+}
+.money2{
+    width: 100%;
+    height: 20vh;
+    border-radius: 40px;
+    display: flex;
+    
+}
+.dollar{
+    color: black;
+    font-size: 35px;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+.fa-circle-plus{
+    font-size: 40px;
+    background-image: linear-gradient(to right, #FFE4B5 0%, #FFEFD5 46%, #F0E68C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.wrap3{
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.room{
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.inter{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.suptext{
+    font-size: 60px;
+}
+.rooms{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.livingroom{
+    width: 50%;
+    height: 80vh;
+    
+}
+.livingroom1{
+    width: 100%;
+    height: 40vh;
+    margin:  10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.livingroom2{
+    width: 100%;
+    height: 40vh;
+    margin: 0 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image{
+    width: 50%;
+    height: 40vh;
+    border-radius: 20px;
+}
+.image2{
+    width: 50%;
+    height: 35vh;
+    border-radius: 20px;
+}
+.plantroom{
+    width: 50%;
+    height: 80vh;
+    border-radius: 20px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image3{
+    width: 50%;
+    height: 80vh; 
+    border-radius: 20px;
+}
+
+.wrap4{
+    width: 100%;
+    height: 140vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 140vh;
+   
+}
+.container1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+
+    
+
+.care{
+    width: 50%;
+    height: 100vh;
+   
+  
+    
+}
+.care1{
+    width: 100%;
+    height: 20vh;
+    padding-left: 100px;
+    padding-top: 10px;
+   
+}
+.care2{
+    width: 100%;
+    height: 80vh;
+    padding-left: 100px;
+    padding-top: 10px;
+    
+}
+.fa-sun{
+    font-size: 40px;  
+    background-image: linear-gradient(to right, #FFE4B5 0%, #FFEFD5 46%, #F0E68C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-droplet{
+    font-size: 40px; 
+    background-image: linear-gradient(to right, #FFE4B5 0%, #FFEFD5 46%, #F0E68C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-seedling{
+    font-size: 40px;
+    background-image: linear-gradient(to right, #FFE4B5 0%, #FFEFD5 46%, #F0E68C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-temperature-three-quarters{
+    background-image: linear-gradient(to right, #FFE4B5 0%, #FFEFD5 46%, #F0E68C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+.pad{
+    background-image: linear-gradient(to right, #FFE4B5 0%, #FFEFD5 46%, #F0E68C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+}
+.groont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image4{
+    width: 50%;
+    height: 50vh; 
+    border-radius: 60px;
+}
+
+.container2{
+    width: 100%;
+    height: 40vh;
+    background-color: grey;
+}
+
+.newslatter{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+.newslatter1{
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.suptext2{
+    font-size: 60px;
+    color: white;
+}
+.newslatter2{
+    width: 70%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+.support{
+    width: 17%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.supportext{
+    color: white;
+    font-size: 30px ;
+}
+
+.supportsuptext{
+    color: gainsboro;
+    font-size: 15px ;
+}
+.end{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:active, a:focus { outline: none; }
+
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
